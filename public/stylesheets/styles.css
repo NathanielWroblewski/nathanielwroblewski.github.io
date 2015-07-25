@@ -1,0 +1,95 @@
+html, body {
+  height: 100%;
+  width:  100%;
+  padding: 0;
+  margin:  0;
+  background-color: #fff;
+  color: #666;
+  font-family: 'Libre Baskerville' serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+
+.container .title {
+  color: #666;
+  font-family: 'Montserrat' sans-serif;
+  margin: 0;
+}
+
+.container .subtitle {
+  margin: 3px 0 0 0;
+  color: #aaa;
+}
+
+.subtitle .link {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.subtitle .link:hover {
+  color: #666;
+}
+
+.container .sites {
+  margin: 0;
+  padding: 50px 0 0 0;
+  list-style: none;
+}
+
+.sites .site {
+  margin: 0;
+  padding: 0;
+}
+
+.site .screencap {
+  height: 300px;
+  width: 480px;
+  border: 2px solid #eee;
+}
+
+.site .screencap:hover {
+  border: 2px solid #666;
+}
+
+.site .link,
+.site .caption .link {
+  color: #666;
+  text-decoration: none;
+}
+
+.site .caption-title {
+  margin: 15px 0 0 0;
+  font-family: 'Montserrat' sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.site .caption {
+  margin: 5px 0 50px 0;
+  color: #aaa;
+  line-height: 1.6em;
+}
+
+.container .side-projects {
+  padding-top: 30px;
+}
+
+/**
+ *  Small screens
+ **/
+
+@media only screen and (max-width: 640px) {
+  .container {
+    width: 380px;
+  }
+
+  .site .screencap {
+    height: 225px;
+    width: 360px;
+    border: 2px solid #eee;
+  }
+}
