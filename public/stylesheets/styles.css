@@ -5,18 +5,18 @@ html, body {
   margin:  0;
   background-color: #fff;
   color: #666;
-  font-family: 'Libre Baskerville' serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .container {
-  width: 500px;
+  width: 1000px;
   margin: 0 auto;
   padding: 50px 10px;
 }
 
 .container .title {
   color: #666;
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
@@ -43,11 +43,19 @@ html, body {
 .sites .site {
   margin: 0;
   padding: 0;
+  width: 310px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+}
+
+.sites .site:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .site .screencap {
-  height: 300px;
-  width: 480px;
+  height: 194px;
+  width: 310px;
   border: 2px solid #eee;
 }
 
@@ -63,7 +71,7 @@ html, body {
 
 .site .caption-title {
   margin: 15px 0 0 0;
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 1.2em;
 }
@@ -72,6 +80,12 @@ html, body {
   margin: 5px 0 50px 0;
   color: #aaa;
   line-height: 1.6em;
+}
+
+.site .date {
+  font-style: italic;
+  font-size: 12px;
+  color: #aaa;
 }
 
 .container .side-projects {
@@ -90,6 +104,28 @@ html, body {
   .site .screencap {
     height: 225px;
     width: 360px;
-    border: 2px solid #eee;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 999px) {
+  .container {
+    width: 655px;
+  }
+
+  .site {
+    width: 300px;
+  }
+
+  .site .screencap {
+    height: 188px;
+    width: 300px;
+  }
+
+  .sites .site:nth-child(3n) {
+    margin-right: 30px;
+  }
+
+  .sites .site:nth-child(2n) {
+    margin-right: 0px;
   }
 }
