@@ -8,6 +8,50 @@ html, body {
   font-family: 'Libre Baskerville', serif;
 }
 
+/* Splash */
+
+.cover {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+
+.video {
+  min-width: 100%;
+}
+
+.bio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 30px;
+}
+
+.bio .container {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 280px;
+  padding: 0;
+}
+
+.profile {
+  height: 280px;
+  float: right;
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
+.blurb {
+  padding: 30px 330px 0px 40px;
+}
+
+.name {
+  margin-bottom: 20px;
+}
+
+/* Content */
+
 .container {
   width: 1000px;
   margin: 0 auto;
@@ -36,7 +80,7 @@ html, body {
 
 .container .sites {
   margin: 0;
-  padding: 50px 0 0 0;
+  padding: 20px 0 0 0;
   list-style: none;
 }
 
@@ -73,7 +117,8 @@ html, body {
   margin: 15px 0 0 0;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-size: 1.2em;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 .site .caption {
@@ -88,10 +133,6 @@ html, body {
   color: #aaa;
 }
 
-.container .side-projects {
-  padding-top: 30px;
-}
-
 /**
  *  Small screens
  **/
@@ -104,6 +145,18 @@ html, body {
   .site .screencap {
     height: 225px;
     width: 360px;
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .blurb {
+   padding: 20px;
+  }
+
+  .blurb p:first-of-type {
+    display: none;
   }
 }
 
@@ -127,5 +180,13 @@ html, body {
 
   .sites .site:nth-child(2n) {
     margin-right: 0px;
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .blurb {
+    padding: 30px;
   }
 }

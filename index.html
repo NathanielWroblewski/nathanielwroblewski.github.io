@@ -3,7 +3,7 @@
   <head>
     <title>Portfolio</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat:400" rel="stylesheet" />
+    <link href='//fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat:400' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="/portfolio/public/stylesheets/styles.css" />
 
@@ -12,13 +12,28 @@
     <meta name="viewport" content="initial-scale=1" />
   </head>
   <body>
+    <div class="cover">
+      <video class="video" playsinline autoplay muted loop>
+        <source src="/public/videos/math.webm" type="video/webm" />
+        <source src="/public/videos/math.mp4" type="video/mp4" />
+      </video>
+      <div class="bio">
+        <div class="container">
+          <img class="profile" src="/public/images/profile.jpeg" />
+          <div class="blurb">
+            <h1 class="title name">Nathaniel Wroblewski</h1>
+            <p>
+              I am a business-minded software engineer who strives to understand the underlying business problem engineering <i>should</i> be solving.  I deliver high-quality products on-time under rigid business constraints.
+            </p>
+            <p>
+              My interests lie at the intersection of software development, machine learning, and mathematics.  I am always looking for an environment and  culture where talent is cultivated, knowledge is shared, and passion is requisite.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <h1 class="title">Professional Portfolio</h1>
-      <p class="subtitle">
-        <a class="link" href="//github.com/nathanielwroblewski">
-          Nathaniel Wroblewski
-        </a>
-      </p>
       <ul class="sites">
         <li class="site">
           <a class="link" href="//www.kissmetrics.com">
@@ -26,7 +41,7 @@
           </a>
           <p class="caption-title">Kissmetrics</p>
           <p class="caption">
-            Full-stack software engineer.
+            Full-stack software engineer
           </p>
         </li>
         <li class="site">
@@ -35,7 +50,7 @@
           </a>
           <p class="caption-title">Darby Smart</p>
           <p class="caption">
-            Full-stack software engineer.
+            Full-stack software engineer
           </p>
         </li>
       </ul>
@@ -47,7 +62,7 @@
           </a>
           <p class="caption-title">World News</p>
           <p class="caption">
-            News from around the world, organized by country.
+            News from around the world, organized by country
           </p>
         </li>
         <li class="site">
@@ -56,7 +71,16 @@
           </a>
           <p class="caption-title">Flocking Algorithms</p>
           <p class="caption">
-            Javascript implementation of the boid flocking algorithm.
+            Javascript implementation of the boid flocking algorithm
+          </p>
+        </li>
+        <li class="site">
+          <a class="link" href="//nathanielwroblewski.github.io/twenty-forty-eight">
+            <img class="screencap" src="/public/images/2048.png" />
+          </a>
+          <p class="caption-title">2048</p>
+          <p class="caption">
+            Javascript implementation of the browser game
           </p>
         </li>
         <li class="site">
@@ -74,7 +98,7 @@
           </a>
           <p class="caption-title">Trackman</p>
           <p class="caption">
-            My running blog.
+            A running blog
           </p>
         </li>
         <li class="site">
@@ -83,7 +107,7 @@
           </a>
           <p class="caption-title">Tetris</p>
           <p class="caption">
-            Javascript implementation of the classic arcade game.
+            Javascript implementation of the classic arcade game
           </p>
         </li>
         <li class="site">
@@ -92,7 +116,7 @@
           </a>
           <p class="caption-title">Sudoku Solver</p>
           <p class="caption">
-            Derives solutions to sudoku puzzles.
+            Derives solutions to sudoku puzzles
           </p>
         </li>
         <li class="site">
@@ -100,7 +124,7 @@
             <img class="screencap" src="/portfolio/public/images/blog.png" />
           </a>
           <p class="caption-title">Personal Blog</p>
-          <p class="caption">My personal blog about software engineering.</p>
+          <p class="caption">My personal blog about software engineering</p>
         </li>
         <li class="site">
           <a class="link" href="//nathanielwroblewski.github.io/connect-four">
@@ -108,7 +132,7 @@
           </a>
           <p class="caption-title">Connect Four</p>
           <p class="caption">
-            Javascript implementation of the classic children's game.
+            Javascript implementation of the classic children's game
           </p>
         </li>
         <li class="site">
@@ -117,7 +141,7 @@
           </a>
           <p class="caption-title">Crosswords</p>
           <p class="caption">
-            Making the classic NP-hard problem NY Times-hard.
+            Making the classic NP-hard problem NY Times-hard
           </p>
         </li>
         <li class="site">
@@ -126,7 +150,7 @@
           </a>
           <p class="caption-title">Frogger</p>
           <p class="caption">
-            Javascript implementation of the classic arcade game.
+            Javascript implementation of the classic arcade game
           </p>
         </li>
         <li class="site">
@@ -135,7 +159,7 @@
           </a>
           <p class="caption-title">Problem Landlords</p>
           <p class="caption">
-            Making public data more accessible.
+            Making public data more accessible
           </p>
         </li>
         <li class="site">
@@ -144,7 +168,7 @@
           </a>
           <p class="caption-title">Snake Game</p>
           <p class="caption">
-            Javascript implementation of the classic calculator game.
+            Javascript implementation of the classic calculator game
           </p>
         </li>
         <li class="site">
@@ -153,7 +177,7 @@
           </a>
           <p class="caption-title">Boggle</p>
           <p class="caption">
-            Javascript implementation of the classic board game.
+            Javascript implementation of the classic board game
           </p>
         </li>
         <li class="site">
@@ -162,7 +186,7 @@
           </a>
           <p class="caption-title">Enron Emails</p>
           <p class="caption">
-            A graph of the redacted enron emails.
+            A graph of the redacted enron emails
           </p>
         </li>
         <li class="site">
@@ -171,7 +195,7 @@
           </a>
           <p class="caption-title">Planet Rock</p>
           <p class="caption">
-            Discover music from around the world.
+            Discover music from around the world
           </p>
         </li>
         <li class="site">
@@ -179,17 +203,17 @@
             <img class="screencap" src="/portfolio/public/images/ufo-sightings.png" />
           </a>
           <p class="caption-title">Interactive Chloropleth</p>
-            <p class="caption">
-              Looking for trends within UFO data.
+          <p class="caption">
+            Looking for trends within UFO data
           </p>
         </li>
         <li class="site">
           <a class="link" href="//nathanielwroblewski.github.io/monthly-ufo-sightings">
-            <img class="screencap" src="/portfolio/public/images/ufo-sightings-monthly.png"/>
+            <img class="screencap" src="/portfolio/public/images/ufo-sightings-monthly.png" />
           </a>
           <p class="caption-title">Interactive Bar Chart</p>
           <p class="caption">
-            Looking for trends within UFO data.
+            Looking for trends within UFO data
           </p>
         </li>
         <li class="site">
@@ -198,7 +222,7 @@
           </a>
           <p class="caption-title">Color Vision Game</p>
           <p class="caption">
-            Test your color vision with this simple game.
+            Test your color vision with this simple game
           </p>
         </li>
         <li class="site">
@@ -207,7 +231,7 @@
           </a>
           <p class="caption-title">Simon Says</p>
           <p class="caption">
-            Javascript implementation of the classic children's game.
+            Javascript implementation of the classic children's game
           </p>
         </li>
         <li class="site">
@@ -216,7 +240,7 @@
           </a>
           <p class="caption-title">Data Visualization</p>
           <p class="caption">
-            Teaches non-developers about CSV, JSON, and shaping data.
+            Teaches non-developers about CSV, JSON, and shaping data
           </p>
         </li>
         <li class="site">
@@ -225,7 +249,7 @@
           </a>
           <p class="caption-title">Minesweeper</p>
           <p class="caption">
-            Javascript implementation of the classic Windows game.
+            Javascript implementation of the classic Windows game
           </p>
         </li>
         <li class="site">
@@ -234,7 +258,7 @@
           </a>
           <p class="caption-title">Pushpin</p>
           <p class="caption">
-            Leave a pin at your location and a comment for the world.
+            Leave a pin at your location and a comment for the world
           </p>
         </li>
         <li class="site">
@@ -243,7 +267,7 @@
           </a>
           <p class="caption-title">Labyrinth Escape Game</p>
           <p class="caption">
-            Escape mazes generated using Prim's algorithm.
+            Escape mazes generated using Prim's algorithm
           </p>
         </li>
         <li class="site">
@@ -252,7 +276,7 @@
           </a>
           <p class="caption-title">Pong</p>
           <p class="caption">
-            Javascript implementation of the classic arcade game.
+            Javascript implementation of the classic arcade game
           </p>
         </li>
         <li class="site">
@@ -261,7 +285,7 @@
           </a>
           <p class="caption-title">Passages</p>
           <p class="caption">
-            My travel photo-blog.
+            A travel photo-blog
           </p>
         </li>
         <li class="site">
@@ -270,7 +294,7 @@
           </a>
           <p class="caption-title">Bartendr</p>
           <p class="caption">
-            Search for drinks by ingredient.
+            Search for drinks by ingredient
           </p>
         </li>
         <li class="site">
@@ -279,7 +303,7 @@
           </a>
           <p class="caption-title">Mastermind</p>
           <p class="caption">
-            Javascript implementation of the classic board game.
+            Javascript implementation of the classic board game
           </p>
         </li>
         <li class="site">
@@ -288,7 +312,7 @@
           </a>
           <p class="caption-title">Beagle</p>
           <p class="caption">
-            Stay up to date on legislation that interests you.
+            Stay up to date on legislation that interests you
           </p>
         </li>
         <li class="site">
@@ -299,7 +323,7 @@
           <p class="caption">
             Send bitcoin over Twitter. Featured on
             <a class="link" href="//news.ycombinator.com/item?id=6955038">
-              HackerNews.
+              HackerNews
             </a>
           </p>
         </li>
@@ -312,7 +336,7 @@
           </a>
           <p class="caption-title">Kissmetrics ruby gem</p>
           <p class="caption">
-            A fluent ruby wrapper for the Kissmetrics API.
+            A fluent ruby wrapper for the Kissmetrics API
           </p>
         </li>
         <li class="site">
@@ -409,12 +433,12 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//github.com/spree/spree/pull/3918">
+          <a class="link" href="//github.com/deseretbook/classy_hash/pull/10">
             <img class="screencap" src="/portfolio/public/images/classyhash.png" />
           </a>
           <p class="caption-title">Classy Hash</p>
           <p class="caption">
-            Added support for deep strict validation of JSON Schemas
+            Added support for deep, strict validation of JSON schemas
           </p>
         </li>
       </ul>
