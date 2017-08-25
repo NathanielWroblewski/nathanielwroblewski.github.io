@@ -101,6 +101,7 @@ html, body {
   height: 194px;
   width: 310px;
   border: 2px solid #eee;
+  border-radius: 4px;
 }
 
 .site .screencap:hover {
