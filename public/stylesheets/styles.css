@@ -68,6 +68,7 @@ html, body {
 .container .title {
   color: #666;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -124,6 +125,7 @@ html, body {
 .site .caption-title {
   margin: 15px 0 0 0;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 1em;
   font-weight: bold;
