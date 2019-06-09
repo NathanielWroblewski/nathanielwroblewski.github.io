@@ -8,9 +8,56 @@ html, body {
   font-family: 'Libre Baskerville', serif;
 }
 
+/* Text and Headers */
+
+.header {
+  color: #666;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0 0 20px 0;
+}
+
+.text {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.6em;
+}
+
+.light {
+  color: #aaa;
+}
+
+.dark {
+  color: #666;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Grid */
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.grid {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 313px 313px 313px;
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+}
+
+.grid .span-2 {
+  grid-column: 1 / span 2;
+  padding: 0;
+}
+
 /* Splash */
 
-.cover {
+.splash {
   position: relative;
   height: 360px;
   overflow: hidden;
@@ -20,110 +67,59 @@ html, body {
   min-width: 100%;
 }
 
-.bio {
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  padding-top: 30px;
+  padding: 60px;
   background-color: rgba(255, 255, 255, 0.90);
   border-bottom: 2px solid #aaa;
-}
-
-.bio .container {
-  padding: 0;
-}
-
-.profile {
-  height: 200px;
-  border-radius: 200px;
-  border: 2px solid #aaa;
-  margin: 45px 80px 0 0;
-  float: right;
-  transform: scaleX(-1);
-  filter: FlipH;
-}
-
-.blurb {
-  padding: 30px 330px 0 0;
-}
-
-.blurb p {
-  line-height: 1.6em;
 }
 
 .name {
   margin-bottom: 20px;
 }
 
+.profile {
+  margin: auto auto;
+  height: 200px;
+  border-radius: 200px;
+  border: 2px solid #aaa;
+  transform: scaleX(-1);
+  filter: FlipH;
+}
+
 /* Content */
 
-.container {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 50px 10px;
+.container:nth-child(2) {
+  margin-bottom: 50px;
 }
 
-.container .title {
-  color: #666;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+.section {
+  margin: 50px 0 20px 0;
+}
+
+.sites {
   margin: 0;
-}
-
-.container .subtitle {
-  margin: 3px 0 0 0;
-  color: #aaa;
-}
-
-.subtitle .link {
-  color: #aaa;
-  text-decoration: none;
-}
-
-.subtitle .link:hover {
-  color: #666;
-}
-
-.container .sites {
-  margin: 0;
-  padding: 20px 0 0 0;
+  padding: 0;
   list-style: none;
 }
 
-.sites .site {
-  margin: 0;
-  padding: 0;
-  width: 310px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 30px;
-}
-
-.sites .site:nth-child(3n) {
-  margin-right: 0px;
-}
-
-.site .screencap {
+.screencap {
   height: 194px;
   width: 310px;
   border: 2px solid #eee;
   border-radius: 4px;
 }
 
-.site .screencap:hover {
+.screencap:hover {
   border: 2px solid #666;
 }
 
-.site .link,
-.site .caption .link {
-  color: #666;
-  text-decoration: none;
-}
-
-.site .caption-title {
-  margin: 15px 0 0 0;
+.caption-title {
+  margin: 10px 0 0 0;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -132,15 +128,7 @@ html, body {
 }
 
 .site .caption {
-  margin: 5px 0 50px 0;
-  color: #aaa;
-  line-height: 1.6em;
-}
-
-.site .date {
-  font-style: italic;
-  font-size: 12px;
-  color: #aaa;
+  margin: 5px 0 0 0;
 }
 
 /**
@@ -148,55 +136,79 @@ html, body {
  **/
 
 @media only screen and (max-width: 640px) {
+  /* Grid */
   .container {
     width: 380px;
   }
 
-  .site .screencap {
-    height: 225px;
-    width: 360px;
+  .grid {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 360px;
+    grid-column-gap: 0px;
+    grid-row-gap: 40px;
+  }
+
+  .grid .span-2 {
+    grid-column: 1 / span 1;
+  }
+
+  /* Splash */
+  .splash {
+    height: 300px;
+  }
+
+  .overlay {
+    padding: 20px;
   }
 
   .profile {
     display: none;
   }
 
-  .blurb {
-   padding: 0 5px;
+  .optional {
+    display: none;
   }
 
-  .bio {
+  .overlay .text {
     font-size: 0.9em;
+  }
+
+  .screencap {
+    height: 225px;
+    width: 360px;
   }
 }
 
 @media only screen and (min-width: 640px) and (max-width: 999px) {
+  /* Grid */
   .container {
     width: 655px;
   }
 
-  .site {
-    width: 300px;
+  .grid {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-column-gap: 50px;
+    grid-row-gap: 40px;
   }
 
-  .site .screencap {
-    height: 188px;
-    width: 300px;
+  /* Splash */
+  .splash {
+    height: 300px;
   }
 
-  .sites .site:nth-child(3n) {
-    margin-right: 30px;
-  }
-
-  .sites .site:nth-child(2n) {
-    margin-right: 0px;
+  .optional {
+    display: none;
   }
 
   .profile {
     display: none;
   }
 
-  .blurb {
-    padding: 30px 0 0 0;
+  .screencap {
+    height: 188px;
+    width: 300px;
   }
 }
