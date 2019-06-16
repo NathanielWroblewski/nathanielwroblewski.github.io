@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/natew
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.nathaniel.ai
+  * I am natew (https://keybase.io/natew) on keybase.
+  * I have a public key with fingerprint 7BCB 7A4B FEB8 865E C168  64D9 FA0A 3949 7D28 2083
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01010251480c8c229eb067e48eaf81d6110fc6964e6cffb91020c18fd5fa98e344280a",
+      "fingerprint": "7bcb7a4bfeb8865ec16864d9fa0a39497d282083",
+      "host": "keybase.io",
+      "key_id": "fa0a39497d282083",
+      "kid": "01010251480c8c229eb067e48eaf81d6110fc6964e6cffb91020c18fd5fa98e344280a",
+      "uid": "4a1eec47caeaa5d544b9d17a227e5419",
+      "username": "natew"
+    },
+    "service": {
+      "hostname": "www.nathaniel.ai",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1560714155,
+  "expire_in": 157680000,
+  "prev": "1232ae9619355aaa043de1a0c669dcef308bea025720da654bfee21bcf2144bd",
+  "seqno": 29,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJdSFRBFF4zrUxzH3pwUyiuSklqd+7en7krlgWVWSlBYEG2zJ177npb
+vbvtrn+ISWCZ9EeB/RNGBook9tKPRKlICEFKEFYWkRohaFCKJJQ2V+ytx2Yehjnn
++775zpnTnxDtiIvSLh/0qTnbZqNe9l6vcJTE3uyo5bSAXsN5ajk/LB5QpkM44vWb
+OufheMS2ICER8xRTQVBB42UFRAzEwEiXEeINKquyCDI1DE1lYJ4ibOiSQVQMblEU
+ME+4TM4wLR+EgiHTijBZRaOaQkTNAA1jWQKKZCyLumoQnrhVUVV0AQs8djNiaSBs
+M5g5jYQh2wywGLt4F+39A/+ffVcsyokEAVBRoQQIkXRJFDVVRwoRBAUkEak2MAwh
+i5QDQ1skAlVcXSbHQpUmBburdhlL6aqqqmwGKSWWCWXZxGTkYCgQCdBAGcuWRiLB
+sMdmR2qCi3DQvEtCXs20dNZIxqiEUNgMWJwHMSSNmLYykmReQSKSpEwOqoNmCLym
+jZAUGfNs2e9AJZNEglsgoMpIdUsSIYQX3TogwlNZVnUKhpvHGhDWP0XgdSJL9keB
+gDRqCIiVrnN2acetAOcRVOaT+Jhm2PSxoipCwNX19RxZ7oiKc8TGLLMnzBG3yvl3
+7qaUFQsn3AuF+kBScvn0hpq24m8Njk0zLqi/NeGsmV5vFQ3cH59puLt7tOnD2YTW
+M9V7O9HkIHL1FKVdxSv3xD+c/fXRWVZ5w59bMdYUX/woL5UcG6P3nmxPf+3aF30A
+DeJ51+HELx1ZiOYnvcl4O549cX7HGN64OtkyQmnN0PrpVHWjK/r0Bf/8u9v7zz2V
+xlu+//Stu5M4k/i1sBe15TwfWXMtpnv4Sgn1FNRd2hWfJG496Rp4lpoyWDCy0NXX
+lzz/uUWfyu2t78w4tOXBxdz5KFTd6O+ZG+j6EdM+WtLe3ZwylLO5Ib3+/atR8riv
+P8+5czh5U8vv8NH8rLWTQyNzL4Q/Mrg/DQ==
+=2Eqd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/natew
+
+==================================================================
