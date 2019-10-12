@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Portfolio</title>
 
-    <link href='//fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat:600' rel='stylesheet' type='text/css' />
+    <link href='//fonts.googleapis.com/css?family=Montserrat:600' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" type="text/css" href="/portfolio/public/stylesheets/styles.css" />
 
     <link rel="icon" type="image/png" href="/portfolio/favicon.png" />
@@ -35,32 +35,28 @@
     <meta itemprop="image" content="https://www.nathaniel.ai/screenshot2.png">
   </head>
   <body>
-    <div class="splash">
-      <video class="video" playsinline autoplay muted loop poster="/portfolio/public/images/math.png">
-        <source src="/portfolio/public/videos/math.webm" type="video/webm" />
-        <source src="/portfolio/public/videos/math.mp4" type="video/mp4" />
-      </video>
-      <div class="overlay">
-        <div class="container grid">
-          <div class="span-2">
-            <h1 class="dark header name">Nathaniel Wroblewski</h1>
-            <p class="dark text">
-              I am an experienced, business-minded software engineer who delivers world-class products with adaptive architectures. I work with  highly-motivated teams to shape a shared vision and to deliver the technology to realize it.
-            </p>
-            <p class="optional dark text">
-              I am also interested in visual communication, mathematics, complex adaptive systems, and applying data science to decision-making. I am always looking for cultures where talent is cultivated, knowledge is shared, and passion is requisite.
-            </p>
-          </div>
-          <img class="profile" src="/porfolio/public/images/profile.jpeg" />
+    <div class="section cover">
+      <div class="container grid">
+        <div class="span-2">
+          <h1 class="dark title header name">
+            Nathaniel <span class="last-initial">W.</span><span class="last-name">Wroblewski</span>
+          </h1>
+          <p class="dark text">
+            I am an experienced, business-minded software engineer who delivers world-class products with adaptive architectures. I work with  highly-motivated teams to shape a shared vision and to deliver the technology to realize it.
+          </p>
+          <p class="optional dark text">
+            I am also interested in visual communication, mathematics, complex adaptive systems, and applying data science to decision-making. I am always looking for cultures where talent is cultivated, knowledge is shared, and passion is requisite.
+          </p>
         </div>
+        <img class="profile" src="//d2435rlki26qyn.cloudfront.net/images/profile.jpeg" />
       </div>
     </div>
-    <div class="container">
-      <h1 class="section dark header">Professional Portfolio</h1>
+    <div class="section container">
+      <h1 class="dark header">Professional Portfolio</h1>
       <ul class="sites grid">
         <li class="site">
           <a class="link" href="//www.carta.com">
-            <img class="screencap" src="/portfolio/public/images/carta.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/carta.png" />
           </a>
           <p class="caption-title">Carta</p>
           <p class="light text caption">
@@ -69,7 +65,7 @@
         </li>
         <li class="site">
           <a class="link" href="//www.spacepencil.com">
-            <img class="screencap" src="/portfolio/public/images/kissmetrics.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/kissmetrics.png" />
           </a>
           <p class="caption-title">Kissmetrics</p>
           <p class="light text caption">
@@ -78,7 +74,7 @@
         </li>
         <li class="site">
           <a class="link" href="//www.darbysmart.com">
-            <img class="screencap" src="/portfolio/public/images/darbysmart.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/darbysmart.png" />
           </a>
           <p class="caption-title">Darby Smart</p>
           <p class="light text caption">
@@ -86,11 +82,13 @@
           </p>
         </li>
       </ul>
-      <h1 class="section dark header">Side Projects</h1>
+    </div>
+    <div class="section container">
+      <h1 class="dark header">Side Projects</h1>
       <ul class="sites grid side-projects">
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/outrun">
-            <img class="screencap" src="portfolio/public/images/outrun.png" />
+          <a class="link" href="//www.nathaniel.ai/outrun">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/outrun.png" />
           </a>
           <p class="caption-title">Outrun</p>
           <p class="light text caption">
@@ -98,8 +96,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/world-news">
-            <img class="screencap" src="/portfolio/public/images/world-news.png" />
+          <a class="link" href="//www.nathaniel.ai/world-news">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/world-news.png" />
           </a>
           <p class="caption-title">World News</p>
           <p class="light text caption">
@@ -108,7 +106,7 @@
         </li>
         <li class="site">
           <a class="link" href="//www.streamstates.com">
-            <img class="screencap" src="/portfolio/public/images/streamflow.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/streamflow.png" />
           </a>
           <p class="caption-title">Current Streamflow in N.C.</p>
           <p class="light text caption">
@@ -116,8 +114,17 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/clocks">
-            <img class="screencap" src="/portfolio/public/images/digital-analog.png" />
+          <a class="link" href="//www.nathaniel.ai/de-bruijn-projections">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/aperiodic-tessellations.png" />
+          </a>
+          <p class="caption-title">Aperiodic Tessellations</p>
+          <p class="light text caption">
+            Constructing Penrose tiles with <br/>de Bruijn projections
+          </p>
+        </li>
+        <li class="site">
+          <a class="link" href="//www.nathaniel.ai/clocks">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/digital-analog.png" />
           </a>
           <p class="caption-title">Digital / Analog</p>
           <p class="light text caption">
@@ -125,8 +132,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/greenberg-hastings">
-            <img class="screencap" src="/portfolio/public/images/greenberg-hastings.png" />
+          <a class="link" href="//www.nathaniel.ai/greenberg-hastings">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/greenberg-hastings.png" />
           </a>
           <p class="caption-title">Modelling Excitable Media</p>
           <p class="light text caption">
@@ -134,8 +141,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/myers-diff">
-            <img class="screencap" src="/portfolio/public/images/myers-diff.png" />
+          <a class="link" href="//www.nathaniel.ai/myers-diff">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/myers-diff.png" />
           </a>
           <p class="caption-title">Myers Diff</p>
           <p class="light text caption">
@@ -143,8 +150,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/climates">
-            <img class="screencap" src="/portfolio/public/images/climate.png" />
+          <a class="link" href="//www.nathaniel.ai/climates">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/climate.png" />
           </a>
           <p class="caption-title">Visualizing Climates</p>
           <p class="light text caption">
@@ -152,8 +159,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/gradient-noise">
-            <img class="screencap" src="/portfolio/public/images/gradient-noise.png" />
+          <a class="link" href="//www.nathaniel.ai/gradient-noise">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/gradient-noise.png" />
           </a>
           <p class="caption-title">Perlin Noise</p>
           <p class="light text caption">
@@ -161,8 +168,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/modular-multiplication">
-            <img class="screencap" src="/portfolio/public/images/modular-multiplication.png" />
+          <a class="link" href="//www.nathaniel.ai/modular-multiplication">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/modular-multiplication.png" />
           </a>
           <p class="caption-title">Modular multiplication</p>
           <p class="light text caption">
@@ -170,8 +177,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/logistic-map">
-            <img class="screencap" src="/portfolio/public/images/logistic-map.png" />
+          <a class="link" href="//www.nathaniel.ai/logistic-map">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/logistic-map.png" />
           </a>
           <p class="caption-title">Bifurcation Diagrams</p>
           <p class="light text caption">
@@ -179,8 +186,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/flocking-behavior">
-            <img class="screencap" src="/portfolio/public/images/flocking.png" />
+          <a class="link" href="//www.nathaniel.ai/flocking-behavior">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/flocking.png" />
           </a>
           <p class="caption-title">Flocking Algorithms</p>
           <p class="light text caption">
@@ -188,8 +195,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/twenty-forty-eight">
-            <img class="screencap" src="/portfolio/public/images/2048.png" />
+          <a class="link" href="//www.nathaniel.ai/twenty-forty-eight">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/2048.png" />
           </a>
           <p class="caption-title">2048</p>
           <p class="light text caption">
@@ -197,8 +204,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/dla">
-            <img class="screencap" src="/portfolio/public/images/dla.png" />
+          <a class="link" href="//www.nathaniel.ai/dla">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/dla.png" />
           </a>
           <p class="caption-title">DLA</p>
           <p class="light text caption">
@@ -206,8 +213,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/majority-classification">
-            <img class="screencap" src="/portfolio/public/images/majority-classification.png" />
+          <a class="link" href="//www.nathaniel.ai/majority-classification">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/majority-classification.png" />
           </a>
           <p class="caption-title">Majority Classification</p>
           <p class="light text caption">
@@ -215,8 +222,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/kd-tree">
-            <img class="screencap" src="/portfolio/public/images/kd-tree.png" />
+          <a class="link" href="//www.nathaniel.ai/kd-tree">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/kd-tree.png" />
           </a>
           <p class="caption-title">Visualizing kd-trees</p>
           <p class="light text caption">
@@ -224,8 +231,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/breakout">
-            <img class="screencap" src="/portfolio/public/images/breakout.png" />
+          <a class="link" href="//www.nathaniel.ai/breakout">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/breakout.png" />
           </a>
           <p class="caption-title">Breakout</p>
           <p class="light text caption">
@@ -233,8 +240,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/quasicrystalline-waveforms">
-            <img class="screencap" src="/portfolio/public/images/quasicrystalline-waveforms.png" />
+          <a class="link" href="//www.nathaniel.ai/quasicrystalline-waveforms">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/quasicrystalline-waveforms.png" />
           </a>
           <p class="caption-title">Quasicrystalline Waveforms</p>
           <p class="light text caption">
@@ -242,8 +249,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/neat-js">
-            <img class="screencap" src="/portfolio/public/images/neat-js.png" />
+          <a class="link" href="//www.nathaniel.ai/neat-js">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/neat-js.png" />
           </a>
           <p class="caption-title">NEAT</p>
           <p class="light text caption">
@@ -251,8 +258,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/life-in-weeks">
-            <img class="screencap" src="/portfolio/public/images/life-in-weeks.png" />
+          <a class="link" href="//www.nathaniel.ai/life-in-weeks">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/life-in-weeks.png" />
           </a>
           <p class="caption-title">Life in Weeks</p>
           <p class="light text caption">
@@ -261,7 +268,7 @@
         </li>
         <li class="site">
           <a class="link" href="//trackman.io">
-            <img class="screencap" src="/portfolio/public/images/trackman.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/trackman.png" />
           </a>
           <p class="caption-title">Trackman</p>
           <p class="light text caption">
@@ -269,8 +276,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/tetrjs">
-            <img class="screencap" src="/portfolio/public/images/tetris.png" />
+          <a class="link" href="//www.nathaniel.ai/tetrjs">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/tetris.png" />
           </a>
           <p class="caption-title">Tetris</p>
           <p class="light text caption">
@@ -278,8 +285,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/sudoku-solver/">
-            <img class="screencap" src="/portfolio/public/images/sudoku.png" />
+          <a class="link" href="//www.nathaniel.ai/sudoku-solver/">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/sudoku.png" />
           </a>
           <p class="caption-title">Sudoku Solver</p>
           <p class="light text caption">
@@ -287,15 +294,15 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io">
-            <img class="screencap" src="/portfolio/public/images/blog.png" />
+          <a class="link" href="//www.nathaniel.ai/blog/">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/blog.png" />
           </a>
           <p class="caption-title">Personal Blog</p>
           <p class="light text caption">My personal blog about software engineering</p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/connect-four">
-            <img class="screencap" src="/portfolio/public/images/connect-four.png" />
+          <a class="link" href="//www.nathaniel.ai/connect-four">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/connect-four.png" />
           </a>
           <p class="caption-title">Connect Four</p>
           <p class="light text caption">
@@ -303,8 +310,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/crosswords">
-            <img class="screencap" src="/portfolio/public/images/crosswords.png" />
+          <a class="link" href="//www.nathaniel.ai/crosswords">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/crosswords.png" />
           </a>
           <p class="caption-title">Crosswords</p>
           <p class="light text caption">
@@ -312,8 +319,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/frogger">
-            <img class="screencap" src="/portfolio/public/images/frogger.png" />
+          <a class="link" href="//www.nathaniel.ai/frogger">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/frogger.png" />
           </a>
           <p class="caption-title">Frogger</p>
           <p class="light text caption">
@@ -321,8 +328,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/chitown-problem-landlords/">
-            <img class="screencap" src="/portfolio/public/images/problem-landlords.png" />
+          <a class="link" href="//www.nathaniel.ai/chitown-problem-landlords/">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/problem-landlords.png" />
           </a>
           <p class="caption-title">Problem Landlords</p>
           <p class="light text caption">
@@ -330,8 +337,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/snake-game">
-            <img class="screencap" src="/portfolio/public/images/snake.png" />
+          <a class="link" href="//www.nathaniel.ai/snake-game">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/snake.png" />
           </a>
           <p class="caption-title">Snake Game</p>
           <p class="light text caption">
@@ -339,8 +346,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/boggle-js">
-            <img class="screencap" src="/portfolio/public/images/boggle.png" />
+          <a class="link" href="//www.nathaniel.ai/boggle-js">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/boggle.png" />
           </a>
           <p class="caption-title">Boggle</p>
           <p class="light text caption">
@@ -348,8 +355,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/enron-email-graph">
-            <img class="screencap" src="/portfolio/public/images/enron.png" />
+          <a class="link" href="//www.nathaniel.ai/enron-email-graph">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/enron.png" />
           </a>
           <p class="caption-title">Enron Emails</p>
           <p class="light text caption">
@@ -357,8 +364,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//www.planetrock.in">
-            <img class="screencap" src="/portfolio/public/images/planet-rock.png" />
+          <a class="link" href="//github.com/NathanielWroblewski/planet_rock">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/planet-rock.png" />
           </a>
           <p class="caption-title">Planet Rock</p>
           <p class="light text caption">
@@ -366,8 +373,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/ufo-sightings">
-            <img class="screencap" src="/portfolio/public/images/ufo-sightings.png" />
+          <a class="link" href="//www.nathaniel.ai/ufo-sightings">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/ufo-sightings.png" />
           </a>
           <p class="caption-title">Interactive Chloropleth</p>
           <p class="light text caption">
@@ -375,8 +382,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/monthly-ufo-sightings">
-            <img class="screencap" src="/portfolio/public/images/ufo-sightings-monthly.png" />
+          <a class="link" href="//www.nathaniel.ai/monthly-ufo-sightings">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/ufo-sightings-monthly.png" />
           </a>
           <p class="caption-title">Interactive Bar Chart</p>
           <p class="light text caption">
@@ -384,8 +391,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/tinge">
-            <img class="screencap" src="/portfolio/public/images/tinge.png" />
+          <a class="link" href="//www.nathaniel.ai/tinge">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/tinge.png" />
           </a>
           <p class="caption-title">Color Vision Game</p>
           <p class="light text caption">
@@ -393,8 +400,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/simon">
-            <img class="screencap" src="/portfolio/public/images/simon.png" />
+          <a class="link" href="//www.nathaniel.ai/simon">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/simon.png" />
           </a>
           <p class="caption-title">Simon Says</p>
           <p class="light text caption">
@@ -403,7 +410,7 @@
         </li>
         <li class="site">
           <a class="link" href="//citizendeveloper.github.io/visualizer/">
-            <img class="screencap" src="/portfolio/public/images/citizen-developer.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/citizen-developer.png" />
           </a>
           <p class="caption-title">Data Visualization</p>
           <p class="light text caption">
@@ -411,8 +418,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/minesweeper">
-            <img class="screencap" src="/portfolio/public/images/minesweeper.png" />
+          <a class="link" href="//www.nathaniel.ai/minesweeper">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/minesweeper.png" />
           </a>
           <p class="caption-title">Minesweeper</p>
           <p class="light text caption">
@@ -420,8 +427,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//push-pin.herokuapp.com/">
-            <img class="screencap" src="/portfolio/public/images/pushpin.png" />
+          <a class="link" href="//github.com/NathanielWroblewski/pushpin">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/pushpin.png" />
           </a>
           <p class="caption-title">Pushpin</p>
           <p class="light text caption">
@@ -429,8 +436,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/daedalus">
-            <img class="screencap" src="/portfolio/public/images/daedalus.png" />
+          <a class="link" href="//www.nathaniel.ai/daedalus">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/daedalus.png" />
           </a>
           <p class="caption-title">Labyrinth Escape Game</p>
           <p class="light text caption">
@@ -438,8 +445,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/pong-js">
-            <img class="screencap" src="/portfolio/public/images/pong.png" />
+          <a class="link" href="//www.nathaniel.ai/pong-js">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/pong.png" />
           </a>
           <p class="caption-title">Pong</p>
           <p class="light text caption">
@@ -447,8 +454,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//www.passages.io/">
-            <img class="screencap" src="/portfolio/public/images/passages.png" />
+          <a class="link" href="//github.com/NathanielWroblewski/travelog">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/passages.png" />
           </a>
           <p class="caption-title">Passages</p>
           <p class="light text caption">
@@ -457,7 +464,7 @@
         </li>
         <li class="site">
           <a class="link" href="//github.com/NathanielWroblewski/bartendr">
-            <img class="screencap" src="/portfolio/public/images/bartendr.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/bartendr.png" />
           </a>
           <p class="caption-title">Bartendr</p>
           <p class="light text caption">
@@ -465,8 +472,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//nathanielwroblewski.github.io/mastermind">
-            <img class="screencap" src="/portfolio/public/images/mastermind.png" />
+          <a class="link" href="//www.nathaniel.ai/mastermind">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/mastermind.png" />
           </a>
           <p class="caption-title">Mastermind</p>
           <p class="light text caption">
@@ -475,7 +482,7 @@
         </li>
         <li class="site">
           <a class="link" href="//github.com/nathanielwroblewski/beagle">
-            <img class="screencap" src="/portfolio/public/images/beagle.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/beagle.png" />
           </a>
           <p class="caption-title">Beagle</p>
           <p class="light text caption">
@@ -483,8 +490,8 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//www.tippercoin.com">
-            <img class="screencap" src="/portfolio/public/images/tippercoin.png" />
+          <a class="link" href="//news.ycombinator.com/item?id=6955038">
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/tippercoin.png" />
           </a>
           <p class="caption-title">TipperCoin</p>
           <p class="light text caption">
@@ -495,11 +502,13 @@
           </p>
         </li>
       </ul>
-      <h1 class="section dark header">Developer Tools</h1>
+    </div>
+    <div class="section container">
+      <h1 class="dark header">Developer Tools</h1>
       <ul class="sites grid grid side-projects">
         <li class="site">
           <a class="link" href="//www.github.com/nathanielwroblewski/kissmetrics-ruby">
-            <img class="screencap" src="/portfolio/public/images/kissmetrics-ruby.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/kissmetrics-ruby.png" />
           </a>
           <p class="caption-title">Kissmetrics ruby gem</p>
           <p class="light text caption">
@@ -508,7 +517,7 @@
         </li>
         <li class="site">
           <a class="link" href="//www.github.com/nathanielwroblewski/schemapper">
-            <img class="screencap" src="/portfolio/public/images/schemapper.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/schemapper.png" />
           </a>
           <p class="caption-title">Schemapper ruby gem</p>
           <p class="light text caption">
@@ -517,7 +526,7 @@
         </li>
         <li class="site">
           <a class="link" href="//www.github.com/nathanielwroblewski/tcx-to-json">
-            <img class="screencap" src="/portfolio/public/images/tcx-to-json.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/tcx-to-json.png" />
           </a>
           <p class="caption-title">TCX to JSON converter</p>
           <p class="light text caption">
@@ -526,7 +535,7 @@
         </li>
         <li class="site">
           <a class="link" href="//www.github.com/nathanielwroblewski/d3_react_chart_components">
-            <img class="screencap" src="/portfolio/public/images/react-chart.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/react-chart.png" />
           </a>
           <p class="caption-title">d3-React Chart library</p>
           <p class="light text caption">
@@ -535,7 +544,7 @@
         </li>
         <li class="site">
           <a class="link" href="//www.github.com/nathanielwroblewski/helloblock">
-            <img class="screencap" src="/portfolio/public/images/helloblock.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/helloblock.png" />
           </a>
           <p class="caption-title">HelloBlock ruby gem</p>
           <p class="light text caption">
@@ -544,7 +553,7 @@
         </li>
         <li class="site">
           <a class="link" href="//www.github.com/nathanielwroblewski/btc-p2p-logger">
-            <img class="screencap" src="/portfolio/public/images/btc-p2p.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/btc-p2p.png" />
           </a>
           <p class="caption-title">Bitcoin TXN propagation</p>
           <p class="light text caption">
@@ -553,7 +562,7 @@
         </li>
         <li class="site">
           <a class="link" href="//www.github.com/nathanielwroblewski/js_block_explorer">
-            <img class="screencap" src="/portfolio/public/images/block-explorer.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/block-explorer.png" />
           </a>
           <p class="caption-title">Block Explorer</p>
           <p class="light text caption">
@@ -562,28 +571,21 @@
         </li>
         <li class="site">
           <a class="link" href="//www.github.com/nathanielwroblewski/led_marquee">
-            <img class="screencap" src="/portfolio/public/images/led-marquee.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/led-marquee.png" />
           </a>
           <p class="caption-title">LED Marquee API</p>
           <p class="light text caption">
             Output text from an API to an LED marquee using a Raspberry Pi
           </p>
         </li>
-        <li class="site">
-          <a class="link" href="//www.github.com/nathanielwroblewski/prop">
-            <img class="screencap" src="/portfolio/public/images/prop.png" />
-          </a>
-          <p class="caption-title">App Generator</p>
-          <p class="light text caption">
-            Rails 4 app generator with customized defaults
-          </p>
-        </li>
       </ul>
-      <h1 class="section dark header">Open Source Contributions</h1>
+    </div>
+    <div class="section container">
+      <h1 class="dark header">Open Source Contributions</h1>
       <ul class="sites grid side-projects">
         <li class="site">
           <a class="link" href="//github.com/spree/spree/pull/3918">
-            <img class="screencap" src="/portfolio/public/images/spree-pr.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/spree-pr.png" />
           </a>
           <p class="caption-title">Spree</p>
           <p class="light text caption">
@@ -592,7 +594,7 @@
         </li>
         <li class="site">
           <a class="link" href="//github.com/haml/haml/pull/727">
-            <img class="screencap" src="/portfolio/public/images/haml-pr.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/haml-pr.png" />
           </a>
           <p class="caption-title">HAML</p>
           <p class="light text caption">
@@ -601,7 +603,7 @@
         </li>
         <li class="site">
           <a class="link" href="//github.com/deseretbook/classy_hash/pull/10">
-            <img class="screencap" src="/portfolio/public/images/classyhash.png" />
+            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/classyhash.png" />
           </a>
           <p class="caption-title">Classy Hash</p>
           <p class="light text caption">
@@ -610,5 +612,6 @@
         </li>
       </ul>
     </div>
+    <div class="footer"></div>
   </body>
 </html>

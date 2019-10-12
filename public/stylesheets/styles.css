@@ -1,3 +1,85 @@
+@font-face {
+  font-family: "Tiempos Headline";
+  src: url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-headline-bold.otf") format("opentype"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-headline-bold.eot") format("embedded-opentype"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-headline-bold.svg") format("svg"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-headline-bold.ttf") format("truetype"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-headline-bold.woff") format("woff"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-headline-bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Tiempos Text";
+  src: url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-text-regular.otf") format("opentype"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-text-regular.eot") format("embedded-opentype"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-text-regular.svg") format("svg"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-text-regular.ttf") format("truetype"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-text-regular.woff") format("woff"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/tiempos/tiempos-text-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whitney";
+  src: url("//d2435rlki26qyn.cloudfront.net/fonts/whitney/whitney-medium.otf") format("opentype"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/whitney/whitney-medium.eot") format("embedded-opentype"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/whitney/whitney-medium.svg") format("svg"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/whitney/whitney-medium.ttf") format("truetype"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/whitney/whitney-medium.woff") format("woff"),
+       url("//d2435rlki26qyn.cloudfront.net/fonts/whitney/whitney-medium.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    margin-left: -10px;
+  }
+  to {
+    opacity: 1;
+    margin-left: 0px;
+  }
+}
+
+@keyframes delayed-slide-in {
+  0%   {
+    opacity: 0;
+    margin-left: -10px;
+  }
+  50%  {
+    opacity: 0;
+    margin-left: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0 }
+  to   { opacity: 1 }
+}
+
+@keyframes delayed-fade-in {
+  0%   {
+    margin-top: 5px;
+    opacity: 0;
+  }
+  80%  {
+    margin-top: 5px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+
 html, body {
   height: 100%;
   width:  100%;
@@ -5,21 +87,18 @@ html, body {
   margin:  0;
   background-color: #fff;
   color: #666;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Tiempos Text', serif;
 }
 
 /* Text and Headers */
 
-.header {
-  color: #666;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  margin: 0 0 20px 0;
+.last-initial {
+  display: none;
 }
 
 .text {
-  font-family: 'Libre Baskerville', serif;
-  line-height: 1.6em;
+  line-height: 1.5em;
+  font-size: 1.2em;
 }
 
 .light {
@@ -55,37 +134,75 @@ html, body {
   padding: 0;
 }
 
+/* Animations */
+
+.header,
+.text,
+.code,
+.caption-title {
+  animation-name: delayed-slide-in;
+  animation-duration: 0.8s;
+  animation-delay: 0s;
+}
+
+.cover .code,
+.cover .header {
+  animation-name: slide-in;
+  animation-duration: 1s;
+  animation-delay: 0s;
+}
+
+.profile,
+.sites {
+  animation-name: fade-in;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+
+.cover .text {
+  font-family: "Whitney", sans-serif;
+  width: 656px;
+}
+
+.site .caption {
+  width: 313px;
+  line-height: 1.6em;
+  font-size: 1em;
+}
+
+.container:not(:first-child) {
+  animation-name: delayed-fade-in;
+  animation-duration: 1.3s;
+  animation-delay: 0s;
+}
+
 /* Splash */
 
-.splash {
-  position: relative;
-  height: 360px;
-  overflow: hidden;
+.cover {
+  background-color: #FCFAF8;
+  height: 315px;
 }
 
-.video {
-  min-width: 100%;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 60px;
-  background-color: rgba(255, 255, 255, 0.90);
-  border-bottom: 2px solid #aaa;
+.header {
+  font-family: 'Tiempos Headline', serif;
+  font-weight: bold;
+  margin: 5px 0 20px 0;
+  font-size: 2.3em;
+  letter-spacing: 0.03rem;
 }
 
 .name {
-  margin-bottom: 20px;
+  margin: 15px 0 0 0;
+}
+
+.title {
+  font-size: 3em;
 }
 
 .profile {
   margin: auto auto;
-  height: 200px;
-  border-radius: 200px;
+  height: 225px;
+  border-radius: 225px;
   border: 2px solid #aaa;
   transform: scaleX(-1);
   filter: FlipH;
@@ -93,12 +210,8 @@ html, body {
 
 /* Content */
 
-.container:nth-child(2) {
-  margin-bottom: 50px;
-}
-
 .section {
-  margin: 50px 0 20px 0;
+  padding: 50px 0 50px 0;
 }
 
 .sites {
@@ -119,16 +232,19 @@ html, body {
 }
 
 .caption-title {
-  margin: 10px 0 0 0;
+  margin: 10px 0 5px 0;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
   text-transform: uppercase;
-  font-size: 1em;
-  font-weight: bold;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .site .caption {
-  margin: 5px 0 0 0;
+  margin: 0;
+}
+
+.footer {
+  height: 50px;
 }
 
 /**
@@ -154,14 +270,6 @@ html, body {
   }
 
   /* Splash */
-  .splash {
-    height: 300px;
-  }
-
-  .overlay {
-    padding: 20px;
-  }
-
   .profile {
     display: none;
   }
@@ -171,12 +279,28 @@ html, body {
   }
 
   .overlay .text {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
   .screencap {
     height: 225px;
     width: 360px;
+  }
+
+  .cover .text {
+    width: 360px;
+  }
+
+  .site .caption {
+    width: 360px;
+  }
+
+  .last-name {
+    display: none;
+  }
+
+  .last-initial {
+    display: inline-block;
   }
 }
 
@@ -194,15 +318,6 @@ html, body {
     grid-row-gap: 40px;
   }
 
-  /* Splash */
-  .splash {
-    height: 300px;
-  }
-
-  .optional {
-    display: none;
-  }
-
   .profile {
     display: none;
   }
@@ -210,5 +325,45 @@ html, body {
   .screencap {
     height: 188px;
     width: 300px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #314455;
+    color: #CCCCCC;
+  }
+
+  .cover {
+    background-color: #C96567;
+  }
+
+  .profile {
+    border: 2px solid #9E5A63;
+  }
+
+  .cover .dark {
+    color: #314455;
+  }
+
+  .dark,
+  .light {
+    color: #97AABD;
+  }
+
+  .dark.link {
+    color: #CCCCCC;
+  }
+
+  img {
+    filter: grayscale(30%);
+  }
+
+  .screencap {
+    border: 2px solid #97AABD;
+  }
+
+  .screencap:hover {
+    border: 2px solid #C96567;
   }
 }
