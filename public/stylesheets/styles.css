@@ -328,7 +328,7 @@ html, body {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   body {
     background-color: #314455;
     color: #CCCCCC;
@@ -366,4 +366,4 @@ html, body {
   .screencap:hover {
     border: 2px solid #C96567;
   }
-}
+}*/
