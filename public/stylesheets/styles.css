@@ -328,42 +328,42 @@ html, body {
   }
 }
 
-/*@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   body {
-    background-color: #314455;
-    color: #CCCCCC;
+    background-color: #292a2d;
+    color: #a9a9b3;
   }
 
   .cover {
-    background-color: #C96567;
+    background-color: #3b3d42;
   }
 
   .profile {
-    border: 2px solid #9E5A63;
+    border: 2px solid #292a2d;
   }
 
-  .cover .dark {
-    color: #314455;
+  .profile {
+    filter: brightness(90%);
   }
 
   .dark,
   .light {
-    color: #97AABD;
+    color: #a9a9b3;
   }
 
   .dark.link {
-    color: #CCCCCC;
+    color: #fff;
   }
 
   img {
-    filter: grayscale(30%);
+    filter: brightness(85%);
   }
 
   .screencap {
-    border: 2px solid #97AABD;
+    border: 2px solid #3b3d42;
   }
 
   .screencap:hover {
-    border: 2px solid #C96567;
+    border: 2px solid #a9a9b3;
   }
-}*/
+}
