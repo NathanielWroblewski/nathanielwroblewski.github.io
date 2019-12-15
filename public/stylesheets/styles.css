@@ -330,29 +330,30 @@ html, body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #292a2d;
-    color: #a9a9b3;
+    background-color: #4D394B;
+    color: #A298A0;
   }
 
   .cover {
-    background-color: #3b3d42;
+    background-color: #392637;
   }
 
   .profile {
-    border: 2px solid #292a2d;
-  }
-
-  .profile {
+    border: 2px solid #4D394B;
     filter: brightness(90%);
   }
 
-  .dark,
-  .light {
-    color: #a9a9b3;
+  .cover .dark.text {
+    color: #A298A0;
   }
 
+  .light {
+    color: #A298A0;
+  }
+
+  .dark,
   .dark.link {
-    color: #fff;
+    color: #D3CED2;
   }
 
   img {
@@ -360,10 +361,10 @@ html, body {
   }
 
   .screencap {
-    border: 2px solid #3b3d42;
+    border: 2px solid #392637;
   }
 
   .screencap:hover {
-    border: 2px solid #a9a9b3;
+    border: 2px solid #4E9689;
   }
 }
