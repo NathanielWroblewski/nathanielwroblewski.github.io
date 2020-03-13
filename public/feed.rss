@@ -1,0 +1,594 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nathaniel.ai</title>
+    <link>https://www.nathaniel.ai/</link>
+    <description>Nathaniel Wroblewski's portfolio site</description>
+    <language>en-us</language>
+    <copyright>Copyright 2020, Nathaniel Wroblewski</copyright>
+    <managingEditor>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</managingEditor>
+    <webMaster>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</webMaster>
+    <docs>https://cyber.harvard.edu/rss/rss.html</docs>
+    <atom:link href="https://www.nathaniel.ai/public/feed.rss" rel="self" type="application/rss+xml" />
+
+    <item>
+      <title>Added Kissmetrics to Professional Portfolio</title>
+      <link>https://www.crunchbase.com/organization/kissmetrics</link>
+      <guid isPermaLink="true">https://www.crunchbase.com/organization/kissmetrics#cto</guid>
+      <description>Joining Kissmetrics as chief technology officer</description>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Sky Hero</title>
+      <link>https://www.nathaniel.ai/skyhero/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/skyhero/</guid>
+      <description>Javascript clone of the classic NES game SkyShark</description>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Word Cube</title>
+      <link>https://www.nathaniel.ai/wordcube/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/wordcube/</guid>
+      <description>Three-dimensional Boggle</description>
+      <pubDate>Mon, 16 Dec 2019 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Aperiodic Tessellations</title>
+      <link>https://www.nathaniel.ai/de-bruijn-projections/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/de-bruijn-projections/</guid>
+      <description>Constructing Penrose tiles with de Bruijn projections</description>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Outrun</title>
+      <link>https://www.nathaniel.ai/outrun/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/outrun/</guid>
+      <description>Synthwave-inspired adaptation of Sega's classic Outrun</description>
+      <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Perlin Noise</title>
+      <link>https://www.nathaniel.ai/gradient-noise/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/gradient-noise/</guid>
+      <description>Longitudinal visualization of 3-D Perlin noise across a vector field</description>
+      <pubDate>Sun, 16 Dec 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Digital / Analog</title>
+      <link>https://www.nathaniel.ai/clocks/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/clocks/</guid>
+      <description>An array of analog clocks acting as a seven-segment display</description>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Added Carta to Professional Portfolio</title>
+      <link>https://www.crunchbase.com/organization/eshares</link>
+      <guid isPermaLink="true">https://www.crunchbase.com/organization/eshares</guid>
+      <description>Joining Carta as a Data Engineer</description>
+      <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Modular Multiplication</title>
+      <link>https://www.nathaniel.ai/modular-multiplication/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/modular-multiplication/</guid>
+      <description>Visualizing modular multiplication on the unit circle</description>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Bifurcation Diagrams</title>
+      <link>https://www.nathaniel.ai/logistic-map/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/logistic-map/</guid>
+      <description>Visualizing logistic map bifurcations</description>
+      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Visualizing kd-trees</title>
+      <link>https://www.nathaniel.ai/kd-tree/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/kd-tree/</guid>
+      <description>Nearest neighbor search via kd-tree traversal</description>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Breakout</title>
+      <link>https://www.nathaniel.ai/breakout/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/breakout/</guid>
+      <description>Javascript implementation of the classic Atari video game</description>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Visualizing Climates</title>
+      <link>https://www.nathaniel.ai/climates/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/climates/</guid>
+      <description>Exploratory data analysis of NOAA climate data</description>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Current Streamflow in North Carolina</title>
+      <link>https://www.nathaniel.ai/streamflows/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/streamflows/</guid>
+      <description>Provides paddlers with realtime streamflow data</description>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Modelling Excitable Media</title>
+      <link>https://www.nathaniel.ai/greenberg-hastings/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/greenberg-hastings/</guid>
+      <description>Spontaneous self-organization of locally periodic spirals</description>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Myers Diff</title>
+      <link>https://www.nathaniel.ai/myers-diff/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/myers-diff/</guid>
+      <description>Visualizing the Myers difference algorithm</description>
+      <pubDate>Fri, 22 Jun 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Majority Classification</title>
+      <link>https://www.nathaniel.ai/majority-classification/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/majority-classification/</guid>
+      <description>Cellular automaton majority voting</description>
+      <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Quasicrystalline Waveforms</title>
+      <link>https://www.nathaniel.ai/quasicrystalline-waveforms/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/quasicrystalline-waveforms/</guid>
+      <description>Quasicrystals formed by 4 or more planewaves</description>
+      <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>NEAT</title>
+      <link>https://www.nathaniel.ai/neat-js/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/neat-js/</guid>
+      <description>Neuro-Evolution of Augmenting Topologies in javascript</description>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>DLA</title>
+      <link>https://www.nathaniel.ai/dla/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/dla/</guid>
+      <description>Javascript implementation of diffusion-limited aggregation</description>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Life in Weeks</title>
+      <link>https://www.nathaniel.ai/life-in-weeks/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/life-in-weeks/</guid>
+      <description>Visualize your life in weeks</description>
+      <pubDate>Fri, 25 Aug 2017 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>2048</title>
+      <link>https://www.nathaniel.ai/twenty-forty-eight/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/twenty-forty-eight/</guid>
+      <description>Javascript implementation of the browser game</description>
+      <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Sudoker Solver</title>
+      <link>https://www.nathaniel.ai/sudoku-solver/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/sudoku-solver/</guid>
+      <description>Derives solutions to sudoku puzzles</description>
+      <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Trackman</title>
+      <link>https://www.nathaniel.ai/run-blog/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/run-blog/</guid>
+      <description>A running blog</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Kissmetrics Ruby Gem</title>
+      <link>https://github.com/nathanielwroblewski/kissmetrics-ruby</link>
+      <guid isPermaLink="true">https://github.com/nathanielwroblewski/kissmetrics-ruby</guid>
+      <description>A fluent ruby wrapper for the Kissmetrics API</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Schemapper Ruby Gem</title>
+      <link>https://github.com/nathanielwroblewski/schemapper</link>
+      <guid isPermaLink="true">https://github.com/nathanielwroblewski/schemapper</guid>
+      <description>A database-agnostic tool to visualize Rails schemas using D3</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>TCX to JSON Converter</title>
+      <link>https://github.com/nathanielwroblewski/tcx-to-json</link>
+      <guid isPermaLink="true">https://github.com/nathanielwroblewski/tcx-to-json</guid>
+      <description>Converts Garmin .TCX format to JSON</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Helloblock Ruby Gem</title>
+      <link>https://github.com/nathanielwroblewski/helloblock</link>
+      <guid isPermaLink="true">https://github.com/nathanielwroblewski/helloblock</guid>
+      <description>Fluent ruby wrapper for the helloblock bitcoin API</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>D3--React Chart Library</title>
+      <link>https://github.com/nathanielwroblewski/d3_react_chart_components</link>
+      <guid isPermaLink="true">https://github.com/nathanielwroblewski/d3_react_chart_components</guid>
+      <description>React chart components using d3</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Bitcoin Transaction Propagation</title>
+      <link>https://github.com/nathanielwroblewski/btc-p2p-logger</link>
+      <guid isPermaLink="true">https://github.com/nathanielwroblewski/btc-p2p-logger</guid>
+      <description>BTC P2P Logger</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>LED Marquee API</title>
+      <link>https://github.com/nathanielwroblewski/led_marquee</link>
+      <guid isPermaLink="true">https://github.com/nathanielwroblewski/led_marquee</guid>
+      <description>Output text from an API to an LED marquee using a Raspberry Pi</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Block Explorer</title>
+      <link>https://github.com/nathanielwroblewski/js_block_explorer</link>
+      <guid isPermaLink="true">https://github.com/nathanielwroblewski/js_block_explorer</guid>
+      <description>Bitcoin block explorer in javascript</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>OSS Contribution to Spree</title>
+      <link>https://github.com/spree/spree/pull/3918</link>
+      <guid isPermaLink="true">https://github.com/spree/spree/pull/3918</guid>
+      <description>Corrected a single point of failure during payment</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>OSS Contribution to HAML</title>
+      <link>https://github.com/haml/haml/pull/727</link>
+      <guid isPermaLink="true">https://github.com/haml/haml/pull/727</guid>
+      <description>Introduced missing HTML elements</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>OSS Contribution to Classy Hash</title>
+      <link>https://github.com/deseretbook/classy_hash/pull/10</link>
+      <guid isPermaLink="true">https://github.com/deseretbook/classy_hash/pull/10</guid>
+      <description>Added support for deep, strict validation of JSON schemas</description>
+      <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Crosswords</title>
+      <link>https://www.nathaniel.ai/crosswords/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/crosswords/</guid>
+      <description>Making the classic NP-hard problem NY Times-hard</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Connect Four</title>
+      <link>https://www.nathaniel.ai/connect-four/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/connect-four/</guid>
+      <description>Javascript implementation of the classic children's game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Personal Blog</title>
+      <link>https://www.nathaniel.ai/blog/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/blog/</guid>
+      <description>My personal blog about software engineering</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Tetr.js</title>
+      <link>https://www.nathaniel.ai/tetrjs/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/tetrjs/</guid>
+      <description>Javascript implementation of the classic arcade game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Flocking Algorithms</title>
+      <link>https://www.nathaniel.ai/flocking-behavior/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/flocking-behavior/</guid>
+      <description>Javascript implementation of the boid flocking algorithm</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>World News</title>
+      <link>https://www.nathaniel.ai/world-news/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/world-news/</guid>
+      <description>News from around the world, organized by country</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Tipper Coin</title>
+      <link>https://news.ycombinator.com/item?id=6955038</link>
+      <guid isPermaLink="true">https://news.ycombinator.com/item?id=6955038</guid>
+      <description>Send bitcoin over Twitter. Featured on HackerNews.</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Color Vision Game</title>
+      <link>https://www.nathaniel.ai/tinge/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/tinge/</guid>
+      <description>Test your color vision with this simple game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Mastermind</title>
+      <link>https://www.nathaniel.ai/mastermind/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/mastermind/</guid>
+      <description>Javascript implementation of the classic board game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Bartendr</title>
+      <link>https://github.com/NathanielWroblewski/bartendr</link>
+      <guid isPermaLink="true">https://github.com/NathanielWroblewski/bartendr</guid>
+      <description>Search for drinks by ingredient</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Pong</title>
+      <link>https://www.nathaniel.ai/pong-js/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/pong-js/</guid>
+      <description>Javascript implementation of the classic arcade game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Labyrinth Escape Game</title>
+      <link>https://www.nathaniel.ai/daedalus/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/daedalus/</guid>
+      <description>Escape mazes generated using Prim's algorithm</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Minesweeper</title>
+      <link>https://www.nathaniel.ai/minesweeper/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/minesweeper/</guid>
+      <description>Javascript implementation of the classic Windows game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Shaping Data for Data Visualizations</title>
+      <link>https://citizendeveloper.github.io/visualizer/</link>
+      <guid isPermaLink="true">https://citizendeveloper.github.io/visualizer/</guid>
+      <description>Teaches non-developers about CSV, JSON, and shaping data</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Simon Says</title>
+      <link>https://www.nathaniel.ai/simon/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/simon/</guid>
+      <description>Javascript implementation of the classic children's game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>UFO Sightings</title>
+      <link>https://www.nathaniel.ai/ufo-sightings/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/ufo-sightings/</guid>
+      <description>Looking for trends within UFO data</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Planet Rock</title>
+      <link>https://www.nathaniel.ai/planet-rock/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/planet-rock/</guid>
+      <description>Discover music from around the world</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Frogger</title>
+      <link>https://www.nathaniel.ai/frogger/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/frogger/</guid>
+      <description>Javascript implementation of the classic arcade game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Snake Game</title>
+      <link>https://www.nathaniel.ai/snake-game/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/snake-game/</guid>
+      <description>Javascript implementation of the classic calculator game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Boggle</title>
+      <link>https://www.nathaniel.ai/boggle-js/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/boggle-js/</guid>
+      <description>Javascript implementation of the classic board game</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Added Kissmetrics to Professional Portfolio</title>
+      <link>https://www.crunchbase.com/organization/kissmetrics</link>
+      <guid isPermaLink="true">https://www.crunchbase.com/organization/kissmetrics</guid>
+      <description>Joining Kissmetrics as a full-stack software engineer</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Beagle</title>
+      <link>https://github.com/nathanielwroblewski/beagle</link>
+      <guid isPermaLink="true">https://github.com/nathanielwroblewski/beagle</guid>
+      <description>Stay up to date on legislation that interests you</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Added Darby Smart to Professional Portfolio</title>
+      <link>https://www.crunchbase.com/organization/darby-smart</link>
+      <guid isPermaLink="true">https://www.crunchbase.com/organization/darby-smart</guid>
+      <description>Joining Darby Smart as a full-stack software engineer</description>
+      <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+  </channel>
+</rss>

@@ -33,6 +33,8 @@
     <meta itemprop="name" content="Professional Portfolio">
     <meta itemprop="description" content="A collection of Nathaniel Wroblewski's technology projects">
     <meta itemprop="image" content="https://www.nathaniel.ai/screenshot2.png">
+
+    <link rel="alternate" type="application/rss+xml" href="/public/feed.rss" title="RSS feed for nathaniel.ai">
   </head>
   <body>
     <div class="section cover">
@@ -52,7 +54,7 @@
       </div>
     </div>
     <div class="section container">
-      <h1 class="dark header">Professional Portfolio</h1>
+      <h1 id="professional-portfolio" class="dark header">Professional Portfolio</h1>
       <ul class="sites grid">
         <li class="site">
           <a class="link" href="https://www.kissmetricshq.com">
@@ -84,7 +86,7 @@
       </ul>
     </div>
     <div class="section container">
-      <h1 class="dark header">Side Projects</h1>
+      <h1 id="side-projects" class="dark header">Side Projects</h1>
       <ul class="sites grid side-projects">
         <li class="site">
           <a class="link" href="//www.nathaniel.ai/outrun">
@@ -346,15 +348,6 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//www.nathaniel.ai/chitown-problem-landlords/">
-            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/thumbnails/problem-landlords.png" />
-          </a>
-          <p class="dark caption-title">Problem Landlords</p>
-          <p class="light text caption">
-            Making public data more accessible
-          </p>
-        </li>
-        <li class="site">
           <a class="link" href="//www.nathaniel.ai/snake-game">
             <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/thumbnails/snake.png" />
           </a>
@@ -373,15 +366,6 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//www.nathaniel.ai/enron-email-graph">
-            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/thumbnails/enron.png" />
-          </a>
-          <p class="dark caption-title">Enron Emails</p>
-          <p class="light text caption">
-            A graph of the redacted enron emails
-          </p>
-        </li>
-        <li class="site">
           <a class="link" href="//github.com/NathanielWroblewski/planet_rock">
             <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/thumbnails/planet-rock.png" />
           </a>
@@ -395,15 +379,6 @@
             <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/thumbnails/ufo-sightings.png" />
           </a>
           <p class="dark caption-title">Interactive Chloropleth</p>
-          <p class="light text caption">
-            Looking for trends within UFO data
-          </p>
-        </li>
-        <li class="site">
-          <a class="link" href="//www.nathaniel.ai/monthly-ufo-sightings">
-            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/thumbnails/ufo-sightings-monthly.png" />
-          </a>
-          <p class="dark caption-title">Interactive Bar Chart</p>
           <p class="light text caption">
             Looking for trends within UFO data
           </p>
@@ -445,15 +420,6 @@
           </p>
         </li>
         <li class="site">
-          <a class="link" href="//github.com/NathanielWroblewski/pushpin">
-            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/thumbnails/pushpin.png" />
-          </a>
-          <p class="dark caption-title">Pushpin</p>
-          <p class="light text caption">
-            Leave a pin at your location and a comment for the world
-          </p>
-        </li>
-        <li class="site">
           <a class="link" href="//www.nathaniel.ai/daedalus">
             <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/thumbnails/daedalus.png" />
           </a>
@@ -469,15 +435,6 @@
           <p class="dark caption-title">Pong</p>
           <p class="light text caption">
             Javascript implementation of the classic arcade game
-          </p>
-        </li>
-        <li class="site">
-          <a class="link" href="//github.com/NathanielWroblewski/travelog">
-            <img class="screencap" src="//d2435rlki26qyn.cloudfront.net/images/thumbnails/passages.png" />
-          </a>
-          <p class="dark caption-title">Passages</p>
-          <p class="light text caption">
-            A travel photo-blog
           </p>
         </li>
         <li class="site">
@@ -522,7 +479,7 @@
       </ul>
     </div>
     <div class="section container">
-      <h1 class="dark header">Developer Tools</h1>
+      <h1 id="developer-tools" class="dark header">Developer Tools</h1>
       <ul class="sites grid grid side-projects">
         <li class="site">
           <a class="link" href="//www.github.com/nathanielwroblewski/kissmetrics-ruby">
@@ -599,7 +556,7 @@
       </ul>
     </div>
     <div class="section container">
-      <h1 class="dark header">Open Source Contributions</h1>
+      <h1 id="open-source-contributions" class="dark header">Open Source Contributions</h1>
       <ul class="sites grid side-projects">
         <li class="site">
           <a class="link" href="//github.com/spree/spree/pull/3918">
@@ -630,6 +587,54 @@
         </li>
       </ul>
     </div>
-    <div class="footer"></div>
+    <footer class="footer">
+      <div class="container">
+        <p class="caption-title"><span class="light copyright">&copy;2020</span><span class="dark name">NathanielWroblewski</span></p>
+        <ul class="social-media">
+          <li>
+            <a class="link" type="application/rss+xml" href="/public/feed.rss">
+              <img class="logo" src="//d2435rlki26qyn.cloudfront.net/images/social/rss-logo.png" />
+            </a>
+          </li>
+          <li>
+            <a class="link" href="https://github.com/nathanielwroblewski">
+              <img class="logo" src="//d2435rlki26qyn.cloudfront.net/images/social/github-logo.png" />
+            </a>
+          </li>
+          <li>
+            <a class="link" href="https://keybase.io/natew">
+              <img class="logo" src="//d2435rlki26qyn.cloudfront.net/images/social/keybase-logo.png" />
+            </a>
+          </li>
+          <li>
+            <a class="link" href="https://www.instagram.com/montambanco">
+              <img class="logo" src="//d2435rlki26qyn.cloudfront.net/images/social/instagram-logo.png" />
+            </a>
+          </li>
+        </ul>
+        <ul class="site-nav">
+          <li>
+            <a class="light link" href="#professional-portfolio">
+              Professional Portfolio
+            </a>
+          </li>
+          <li>
+            <a class="light link" href="#side-projects">
+              Side Projects
+            </a>
+          </li>
+          <li>
+            <a class="light link" href="#developer-tools">
+              Developer Tools
+            </a>
+          </li>
+          <li>
+            <a class="light link" href="#open-source-contributions">
+              Open Source Contributions
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
