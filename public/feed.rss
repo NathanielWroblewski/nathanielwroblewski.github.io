@@ -12,6 +12,46 @@
     <atom:link href="https://www.nathaniel.ai/public/feed.rss" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>Lavabits</title>
+      <link>https://www.nathaniel.ai/lavabits/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/lavabits/</guid>
+      <description>Metaballs confined to a noise field</description>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Sea Jellies</title>
+      <link>https://www.nathaniel.ai/sea-jellies/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/sea-jellies/</guid>
+      <description>Circumscribed strings circumnavigate a noise space</description>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Disco Donut</title>
+      <link>https://www.nathaniel.ai/donut/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/donut/</guid>
+      <description>A gyrating torus comprised of tori based on donut.c</description>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Pathlines</title>
+      <link>https://www.nathaniel.ai/pathlines/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/pathlines/</guid>
+      <description>Particles traverse an unsteady vector field</description>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
       <title>Hierarchy</title>
       <link>https://www.nathaniel.ai/hierarchy/</link>
       <guid isPermaLink="true">https://www.nathaniel.ai/hierarchy/</guid>
