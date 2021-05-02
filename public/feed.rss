@@ -12,6 +12,56 @@
     <atom:link href="https://www.nathaniel.ai/public/feed.rss" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>Planewave</title>
+      <link>https://www.nathaniel.ai/planewave/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/planewave/</guid>
+      <description>Particles confined to a plane undulate across an unsteady vector field</description>
+      <pubDate>Sun, 2 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Torus Ouroboros</title>
+      <link>https://www.nathaniel.ai/torus-ouroboros/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/torus-ouroboros/</guid>
+      <description>Simultaneously self-organizing and self-disorganizing</description>
+      <pubDate>Sun, 2 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Marble Tour</title>
+      <link>https://www.nathaniel.ai/marble-tour/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/marble-tour/</guid>
+      <description>Symbiotic prismatoids</description>
+      <pubDate>Sun, 2 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Cosmic Curry</title>
+      <link>https://www.nathaniel.ai/cosmic-curry/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/cosmic-curry/</guid>
+      <description>Noise at various resolutions across a partially compacted sphere</description>
+      <pubDate>Sun, 2 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Frenzy</title>
+      <link>https://www.nathaniel.ai/frenzy/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/frenzy/</guid>
+      <description>One of the programmers had submitted several unnerving reports of bits behaving strangely in the output registers.  These reports affected me profoundly, including a strikingly vivid mirage -- the first I had ever seen -- in which several buffers simultaneously overflowed with shapeless congeries of bits.</description>
+      <pubDate>Sun, 2 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
       <title>Lavabits</title>
       <link>https://www.nathaniel.ai/lavabits/</link>
       <guid isPermaLink="true">https://www.nathaniel.ai/lavabits/</guid>
