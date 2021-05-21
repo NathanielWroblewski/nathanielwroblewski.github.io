@@ -12,6 +12,66 @@
     <atom:link href="https://www.nathaniel.ai/public/feed.rss" rel="self" type="application/rss+xml" />
 
     <item>
+      <title>Cobblestones</title>
+      <link>https://www.nathaniel.ai/cobblestones/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/cobblestones/</guid>
+      <description>Pillars undulate across the sine of noise space</description>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Latency</title>
+      <link>https://www.nathaniel.ai/frames/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/frames/</guid>
+      <description>Tile rotations propagate through time</description>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Sapling</title>
+      <link>https://www.nathaniel.ai/sapling/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/sapling/</guid>
+      <description>Three-dimensional L-system embedded in a noise space</description>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Confetto</title>
+      <link>https://www.nathaniel.ai/confetto/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/confetto/</guid>
+      <description>Movement of a plane through terraced noise space</description>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Gyroid</title>
+      <link>https://www.nathaniel.ai/gyroid/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/gyroid/</guid>
+      <description>Rotating gyroid illuminated by glitched facing ratio lighting</description>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
+      <title>Light Extruder</title>
+      <link>https://www.nathaniel.ai/extruder/</link>
+      <guid isPermaLink="true">https://www.nathaniel.ai/extruder/</guid>
+      <description>A rotating extruder releases lighter-than-air particles</description>
+      <pubDate>Fri, 21 May 2021 00:00:00 +0000</pubDate>
+      <author>nathanielwroblewski@gmail.com (Nathaniel Wroblewski)</author>
+      <source url="https://www.nathaniel.ai/public/feed.rss">nathaniel.ai</source>
+    </item>
+
+    <item>
       <title>Planewave</title>
       <link>https://www.nathaniel.ai/planewave/</link>
       <guid isPermaLink="true">https://www.nathaniel.ai/planewave/</guid>
