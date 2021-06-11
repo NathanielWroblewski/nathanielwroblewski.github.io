@@ -231,6 +231,10 @@ html, body {
   border: 2px solid #666;
 }
 
+.screencap.dead:hover {
+  border: 2px solid #eee;
+}
+
 .caption-title {
   margin: 10px 0 5px 0;
   font-family: 'Montserrat', sans-serif;
